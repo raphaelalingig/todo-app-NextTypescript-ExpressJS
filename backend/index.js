@@ -18,6 +18,6 @@ app.delete("/user/angela", (res, req) => {
   res.sendStatus(200);
 });
 
-app.listen(3000, () => {
+app.listen(6000, () => {
   console.log(`Server Running on Port ${port}`);
 });
